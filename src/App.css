@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.header-bg{
+  height: 60vh;
+  width: 100%;
+  background: url("https://sm.mashable.com/t/mashable_in/photo/default/nasa-galaxy_9pu4.960.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color:#fc3d21;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:60px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo_png{
+  height: 140px;
+  width: 140px;
+} 
+.row-custom{
+  width: 100%;
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+input[type=text]{
+  outline:none;
+  border:none;
+  background:none;
+  border:2px solid #0b3d91;
+  padding:10px 20px;
+  color:white;
+  font-size: 25px;
+  flex:5;
+}
+button{
+  outline:none;
+  border:none;
+  background:none;
+  background: #0b3d91;
+  font-size: 25px;
   color: white;
+  font-weight: bold;
+  padding:10px 20px;
+  flex:1;
 }
-
-.App-link {
-  color: #61dafb;
+.gallery{
+  /* background:rgb(51, 51, 51); */
+  padding:20px 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.photo{
+  width:100%;
+  height: 80vh;
+  margin-top: 20px;
+ }
